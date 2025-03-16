@@ -1,5 +1,4 @@
-﻿
-using BuilderDesignPatternSample.Builders.Contracts;
+﻿using BuilderDesignPatternSample.Builders.Contracts;
 using BuilderDesignPatternSample.Builders.Implements;
 using BuilderDesignPatternSample.Directors;
 using BuilderDesignPatternSample.Products;
