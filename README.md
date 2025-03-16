@@ -1,6 +1,6 @@
 Builder Pattern in C#
 
-#Overview:
+Overview:
 
 This repository demonstrates the Builder Pattern implemented in a C# Console Application. The Builder Pattern is a creational design pattern that provides a step-by-step approach to constructing complex objects. It allows for more readable, maintainable, and flexible object creation, separating the construction logic from the actual object representation.
 
