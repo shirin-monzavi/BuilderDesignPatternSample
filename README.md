@@ -1,24 +1,25 @@
 ## Builder Pattern in C#
+ 
+ ### 📌 Overview
+ 
+ This repository demonstrates the Builder Pattern implemented in a C# Console Application. The Builder Pattern is a creational design pattern that provides a step-by-step approach to constructing complex objects. It allows for more readable, maintainable, and flexible object creation, separating the construction logic from the actual object representation.
+ 
+ ### 🎯 Features
+ 
+ This project presents how to use the Builder Pattern by creating objects step by step. The example includes:
+ 
+ ✅ A Product class representing the complex object (Computer).
+ 
+ ✅ A Builder class that constructs the object in a structured manner (ComputerBuilder).
 
-### 📌 Overview
-
-This project demonstrates the Factory Method design pattern, where the creator is responsible for creating different types of product objects. In this case, the products are PDFDocument and WordDocument. The DocumentCreator class is responsible for creating instances of these document types using the factory method.
-
-### 🎯 Usage
-
-✅ Decouples Object Creation: The client code doesn't need to know about the specific class of the object it creates, making the code more flexible and maintainable.
-
-✅ Extendable: To add new document types (e.g., ExcelDocument), we can simply implement a new class inheriting from Document and pass its type to the creator, without changing the existing code.
-
-✅ Simplifies Object Creation: The DocumentCreator is generic so it handles object creation, making the client code cleaner.
-
-
-### 🛠️ Technologies Used
-
-C#
-
-.NET Framework 7.0
-
-### 🤝 Contributing
-
-Feel free to fork the repository, submit pull requests, or open issues for improvements and discussions.
+ ✅ A Director class that manages the construction process (ComputerShop).
+ 
+ ### 🛠️ Technologies Used
+ 
+ C#
+ 
+ .NET Framework 8.0
+ 
+ ### 🤝 Contributing
+ 
+ Feel free to fork the repository, submit pull requests, or open issues for improvements and discussions.
